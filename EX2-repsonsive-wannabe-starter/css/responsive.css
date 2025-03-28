@@ -1,7 +1,40 @@
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 1440px) {
     .container {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
     }
 }
+
+@media screen and (max-width: 480px) {
+
+    .text-center {
+        text-align: center;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+
+    .steps .col, .lessons .col, .why-us .col-left {
+        width: 80%;
+    }
+    
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        padding-top: 48px;
+        margin-bottom: 0px;
+        background-color: #222222;
+    }
+}
+    
